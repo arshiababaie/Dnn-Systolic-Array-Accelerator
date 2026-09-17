@@ -52,7 +52,7 @@ $$\text{IDLE} \longrightarrow \text{LOAD} \longrightarrow \text{COMPUTE} \longri
 ## 📁 Directory Layout
 
 - `rtl/` : Synthesizable Verilog modules (`systolic_array_top.v`, `pe.v`, `wallace_tree_8bit_signed.v`, `cla_18bit.v`, etc.).
-- `sim/` : Test vectors, memory hex initialization and matrices.
+- `sim/` : Test vectors, memory hex initialization files (`IN.txt`, `WB.txt`) and matrices, Testbench environment (`tb_systolic_top.v`) and verification guides.
 - `docs/` : Technical report (`Systolic_MAC_Accelerator_Final_Report.pdf`), specifications, and reference papers.
 
 ---
