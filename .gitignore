@@ -1,0 +1,22 @@
+# ModelSim / QuestaSim artifacts
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vst
+*.log
+*.mti
+wlft*
+
+# Vivado / Quartus compilation logs
+*.jou
+*.log
+*.pb
+*.str
+.Xil/
+*.qws
+*.rpt
+
+# OS specific
+.DS_Store
+Thumbs.db
